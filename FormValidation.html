@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formvalid.css">
+    <script src="formcheck.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="maindiv">
+    <table>
+        <tr>
+            <td>Name : </td>
+            <td><input type="text"  id="username" placeholder="Username"></td>
+        </tr>
+        <tr>
+            <td>Adress : </td>
+            <td><input type="text"  id="address" placeholder="Address"></td>
+        </tr>
+        <tr>
+            <td>Mobile : </td>
+            <td><input type="number"  id="mobile" placeholder="Contact-Num"></td>
+        </tr>
+        <tr>
+            <td>Age : </td>
+            <td><input type="number"  id="age"  placeholder="age"></td>
+        </tr>
+        <tr>
+            <td>Gender : </td>
+            <td><input type="radio" name="gen" id="gen" value="M">Male <input type="radio" name="gen" id="gen" value="F">female</td>
+        </tr>
+            
+    </table>
+    <button style="width: max-content; margin-top: 50px; align-items: center; justify-content: center;" onclick="checkform()">Submit</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+void loop() {
+boolean newData = false;
+for (unsigned long start = millis(); millis() - start < 1000;)
+{
+while (neogps.available())
+{
+if (gps.encode (neogps.read()))
+{
+newData = true;
+}
+}
+}
